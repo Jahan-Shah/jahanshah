@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col items-center justify-center w-screen h-screen gap-2 text-white bg-black">
+  <main class="flex flex-col items-center justify-center w-screen gap-2 text-white bg-black h-dvh">
     <p class="font-[Lilita_One] text-4xl leading-none cursor-default select-none">
       &lt;SJ./&gt;
     </p>
