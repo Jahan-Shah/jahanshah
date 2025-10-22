@@ -9,6 +9,7 @@ export default antfu({
     semi: true,
     quotes: "double",
   },
+  ignores: [".github"],
 }, {
   rules: {
     "no-console": ["warn"],
