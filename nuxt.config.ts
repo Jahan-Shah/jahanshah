@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Jahan Shah",
+      htmlAttrs: {
+        lang: "en",
+      },
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         { rel: "icon", type: "image/x-icon", href: "/favicon-light.ico", media: "(prefers-color-scheme: light)" },
