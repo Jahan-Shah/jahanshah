@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* --steel-blue: hsla(208, 48%, 47%, 1);
+--persian-indigo: hsla(263, 66%, 27%, 1);
+--ruddy-blue: hsla(210, 81%, 68%, 1);
+--falu-red: hsla(1, 66%, 27%, 1); */
+
+:root {
+  --white-smoke: oklch(95.578% 0.00442 135.824);
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--white-smoke)];
+  }
+}
